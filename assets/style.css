@@ -1,0 +1,54 @@
+.notifacition-bar {
+  background-color: #e4fb5f;
+  text-align: center;
+  padding: 10px 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.about-us {
+  background-color: rgb(229, 218, 218);
+  padding: 25px 35px;
+}
+.none{
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 0.48px;
+    font-weight: 600;
+    gap: 65px;;
+    justify-content: center;
+}
+.seperate{
+    text-align: right;
+    letter-spacing: 0.48px;
+    font-weight: 600;
+    gap: 65px;
+}
+.flex {
+  display: flex;
+ }
+.elementor{
+  background-color: black;
+  color: white;
+  text-align: left;
+  align-items: center;
+}
+.head{
+  font-size: 45px;
+  line-height: 55px;
+}
+.button{
+  font-family: "Roobert", Sans-serif;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  padding: 17px 60px 17px 60px;
+}
+.vase{
+  display: flex;
+  text-align: center;
+}
+@media screen and (min-width: 700px) {
+  .header {
+    width: 100%;
+  }
+}
